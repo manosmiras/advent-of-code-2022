@@ -1,4 +1,4 @@
-Solutions for https://adventofcode.com/2022 using Python.
+Solutions for Advent of Code 2022 - https://adventofcode.com/2022 using Python.
 
 How to run
 1. Install python: https://www.python.org/downloads/
