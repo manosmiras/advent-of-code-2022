@@ -5,7 +5,6 @@ def get_priority_of_common_items(things):
     common_item = set(things[0])
     for x in range(1, len(things)):
         common_item &= set(things[x])
-    # print(common_item)
     return priority_list.find(list(common_item)[0]) + 1
 
 def get_sum_p1(rucksacks):
@@ -27,3 +26,4 @@ data = file.read()
 rucksacks = data.splitlines()
 print(get_sum_p1(rucksacks))
 print(get_sum_p2(rucksacks))
+file.close()
